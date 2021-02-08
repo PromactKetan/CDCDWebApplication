@@ -24,7 +24,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore /p:DebugType=None
     
     - name: Publish
-      run: dotnet publish CDCDWebApplication/CDCDWebApplication.csproj -o PublishPractical/CDCDWebApplication/ -r win-x64 --self-contained false /p:DebugType=None
+      run: dotnet publish CDCDWebApplication/CDCDWebApplication.csproj -o PublishPractical/CDCDWebApplication/ -r win-x64 --self-contained true /p:DebugType=None
    
    - name: Easy Zip Files
     # You may pin to the exact commit or the version.
