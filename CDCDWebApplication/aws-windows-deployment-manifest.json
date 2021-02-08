@@ -1,0 +1,15 @@
+{
+  "manifestVersion": 1,
+  "deployments": {
+    "aspNetCoreWeb": [
+      {
+        "name": "CDCDWebApplication",
+        "parameters": {
+          "appBundle": "cicdpract.zip",
+          "iisPath": "/",
+          "iisWebSite": "Default Web Site"
+        }
+      }
+    ]
+  }
+}
